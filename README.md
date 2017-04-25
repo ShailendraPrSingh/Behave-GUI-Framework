@@ -3,6 +3,7 @@
 A simple attempt to have a GUI for behave in python!
 
 ## Directory structure
+```
 ├── LICENSE
 ├── README.md
 ├── app.py
@@ -15,3 +16,4 @@ A simple attempt to have a GUI for behave in python!
     ├── steps
     │   └── tutorial.py
     └── tutorial.feature
+```
