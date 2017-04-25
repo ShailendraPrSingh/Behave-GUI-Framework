@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>dunnhumby behave UI</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+</head>
+
+<script type="text/javascript">
+</script>
+
+<body>
+	<h1 align="center"><b><i> BDD UI Framework </i></b></h1>
+	<h3 align="center"><b><i><u> Step Files </u></i></b></h3>
+	<div class="container" id="steps">
+		{% for item in items %}
+			<pre id="{{ item }}"> {{ item }} </pre>
+		{% endfor %}
+	</div>
+</body>	
+</html>
